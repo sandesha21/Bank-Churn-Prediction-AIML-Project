@@ -1,5 +1,12 @@
 # Bank Churn Prediction
 
+![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15.0-orange.svg)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-1.2.2-green.svg)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Status](https://img.shields.io/badge/status-complete-brightgreen.svg)
+
 ## Overview  
 This project focuses on predicting customer churn for a retail bank using machine learning. By analyzing customer demographics, financial behavior, and engagement patterns, the model helps the bank identify customers at high risk of leaving and implement targeted retention strategies.
 
@@ -53,19 +60,24 @@ cd bank-churn-prediction
 # Install required libraries
 pip install tensorflow==2.15.0 scikit-learn==1.2.2 seaborn==0.13.1 matplotlib==3.7.1 numpy==1.25.2 pandas==2.0.3 imbalanced-learn==0.10.1
 
-# Launch Jupyter Notebook
-jupyter notebook _INN_Learner_Notebook_Full_code_sbadwaik_final_v1.ipynb
+# Launch Jupyter Notebook (recommended: use v2 for enhanced experience)
+jupyter notebook INN_Learner_Notebook_Full_code_sbadwaik_final_v2.ipynb
 ```
 
 ## Usage  
 1. **Data Loading:** The notebook automatically loads the `Churn.csv` dataset
 2. **Data Preprocessing:** Run cells for data cleaning, encoding, and feature scaling
-3. **Model Training:** Execute neural network training with different configurations
+3. **Model Training:** Execute neural network training with different configurations (6 models total)
 4. **Evaluation:** View model performance metrics and comparison results
-5. **Predictions:** Use the trained model for churn prediction on new data
+5. **Business Impact:** Analyze financial implications and ROI of the churn prediction model
+6. **Predictions:** Use the trained model for churn prediction on new data
+
+**Recommended:** Use `v2.ipynb` for the best experience with enhanced formatting, table of contents, and business impact analysis.
 
 ## File Structure  
-- `INN_Learner_Notebook_Full_code_sbadwaik_final_v1.ipynb` - Complete analysis and model implementation
+- `INN_Learner_Notebook_Full_code_sbadwaik_final_v1.ipynb` - Original analysis and model implementation
+- `INN_Learner_Notebook_Full_code_sbadwaik_final_v2.ipynb` - **Enhanced version with improved formatting and business impact analysis**
+- `INN_Learner_Notebook_Full_code_sbadwaik_final_v2_backup.ipynb` - Backup of previous v2 version
 - `Churn.csv` - Customer dataset with demographics and churn labels
 - `README.md` - Project documentation
 - `LICENSE` - Project license information
