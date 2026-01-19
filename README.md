@@ -128,7 +128,6 @@ jupyter notebook Bank_Churn_Prediction_Neural_Network_v2.ipynb
 ```
 ├── Bank_Churn_Prediction_Neural_Network_v1.ipynb       # Original analysis and model implementation
 ├── Bank_Churn_Prediction_Neural_Network_v2.ipynb       # Enhanced version with improved formatting & business impact
-├── Bank_Churn_Prediction_Neural_Network_v2_backup.ipynb # Backup of previous v2 version
 ├── Churn.csv                                           # Customer dataset (10k records, 14 features)
 ├── PROJECT_REQUIREMENTS.md                             # Detailed business context & data dictionary
 ├── README.md                                           # This file
