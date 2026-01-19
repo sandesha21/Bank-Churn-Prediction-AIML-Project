@@ -8,19 +8,20 @@
 ![Status](https://img.shields.io/badge/status-complete-brightgreen.svg)
 
 ## Overview  
-This project focuses on predicting customer churn for a retail bank using machine learning. By analyzing customer demographics, financial behavior, and engagement patterns, the model helps the bank identify customers at high risk of leaving and implement targeted retention strategies.
+This project focuses on predicting customer churn for a retail bank using neural network-based machine learning. By analyzing customer demographics, financial behavior, and engagement patterns, the model helps the bank identify customers at high risk of leaving and implement targeted retention strategies.
+
+*For detailed project requirements and specifications, see [PROJECT_REQUIREMENTS.md](PROJECT_REQUIREMENTS.md)*
 
 ## Objective  
-The main objective was to build and optimize predictive models that classify customers as likely to churn or stay. Early identification of churn-prone customers enables the bank to proactively engage them with personalized offers and improve overall customer loyalty.
+Build a neural network-based classifier that can determine whether a bank customer will leave or not in the next 6 months.
 
 ## Dataset  
-- **Source:** Provided as part of the project coursework  
-- **Size:** ~10,000+ customer records  
-- **Key Features:**  
-  - Demographics (age, gender, geography)  
-  - Account details (balance, products, credit score)  
-  - Engagement metrics (tenure, activity patterns)  
+- **Source:** Open-source dataset from Kaggle  
+- **Size:** 10,000 customer records  
+- **Features:** 14 distinct features including demographics, account details, and engagement metrics
 - **Target:** Churn Status (`1` = Churned, `0` = Retained)
+
+*Complete data dictionary available in [PROJECT_REQUIREMENTS.md](PROJECT_REQUIREMENTS.md)*
 
 ## Workflow  
 1. **Data Preprocessing** – Cleaned and prepared data by encoding categorical variables, handling imbalances, and scaling features.  
@@ -79,6 +80,7 @@ jupyter notebook INN_Learner_Notebook_Full_code_sbadwaik_final_v2.ipynb
 - `INN_Learner_Notebook_Full_code_sbadwaik_final_v2.ipynb` - **Enhanced version with improved formatting and business impact analysis**
 - `INN_Learner_Notebook_Full_code_sbadwaik_final_v2_backup.ipynb` - Backup of previous v2 version
 - `Churn.csv` - Customer dataset with demographics and churn labels
+- `PROJECT_REQUIREMENTS.md` - Detailed project requirements and data dictionary
 - `README.md` - Project documentation
 - `LICENSE` - Project license information
 
