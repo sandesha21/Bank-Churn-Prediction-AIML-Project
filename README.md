@@ -12,22 +12,8 @@
 ![Status](https://img.shields.io/badge/status-complete-brightgreen.svg)
 ![Accuracy](https://img.shields.io/badge/accuracy-79%25-green.svg)
 ![Recall](https://img.shields.io/badge/recall-69%25-green.svg)
-
-## 📋 Table of Contents
-- [🏷️ Keywords & Topics](#️-keywords--topics)
-- [📖 Overview](#-overview)
-- [🎯 Objective](#-objective)
-- [📊 Dataset](#-dataset)
-- [🔄 Workflow](#-workflow)
-- [📈 Model Performance & Results](#-model-performance--results)
-- [🔍 Key Insights](#-key-insights)
-- [🚀 Quick Start](#-quick-start)
-- [📊 Usage Guide](#-usage-guide)
-- [📁 File Structure](#-file-structure)
-- [🛠️ Tech Stack](#️-tech-stack)
-- [🚀 Future Work](#-future-work)
-- [👨‍💻 Author](#-author)
-
+![Precision](https://img.shields.io/badge/precision-49%25-yellow.svg)
+![F1-Score](https://img.shields.io/badge/f1--score-57%25-red.svg)
 ---
 
 ## 🏷️ Keywords & Topics
@@ -98,12 +84,10 @@ Build a neural network-based classifier that can determine whether a bank custom
 
 ```bash
 # 1. Clone the repository
-git clone <repository-url>
-cd bank-churn-prediction
+git clone https://github.com/sandesha21/Bank-Churn-Prediction.git
+cd Bank-Churn-Prediction
 
 # 2. Install dependencies
-pip install -r requirements.txt
-# OR install manually:
 pip install tensorflow==2.15.0 scikit-learn==1.2.2 seaborn==0.13.1 matplotlib==3.7.1 numpy==1.25.2 pandas==2.0.3 imbalanced-learn==0.10.1
 
 # 3. Launch Jupyter Notebook
@@ -126,11 +110,12 @@ jupyter notebook Bank_Churn_Prediction_Neural_Network_v2.ipynb
 
 ## 📁 File Structure  
 ```
-├── Bank_Churn_Prediction_Neural_Network_v1.ipynb       # Original analysis and model implementation
-├── Bank_Churn_Prediction_Neural_Network_v2.ipynb       # Enhanced version with improved formatting & business impact
+├── Bank_Churn_Prediction_Neural_Network_v1.ipynb       # Complete analysis and model implementation notebook
+├── Bank_Churn_Prediction_Neural_Network_v2.ipynb       # Enhanced version with improved formatting & business impact analysis
 ├── Churn.csv                                           # Customer dataset (10k records, 14 features)
-├── PROJECT_REQUIREMENTS.md                             # Detailed business context & data dictionary
-├── README.md                                           # This file
+├── PROJECT_REQUIREMENTS.md                             # Detailed project documentation, business context & data dictionary
+├── README.md                                           # Project overview and setup guide
+├── .gitignore                                          # Git ignore file for excluding backup files and cache
 └── LICENSE                                             # Project license information
 ```
 
@@ -156,7 +141,7 @@ jupyter notebook Bank_Churn_Prediction_Neural_Network_v2.ipynb
 
 ## 👨‍💻 Author  
 **Sandesh S. Badwaik**  
-*Data Scientist & Machine Learning Engineer*
+*Applied Data Scientist & Machine Learning Engineer*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sbadwaik/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sandesha21)
