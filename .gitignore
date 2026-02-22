@@ -3,3 +3,5 @@ __pycache__/
 venv/
 .env
 .ipynb_checkpoints/
+# Backup files
+Bank_Churn_Prediction_Neural_Network_v2_backup.ipynb
