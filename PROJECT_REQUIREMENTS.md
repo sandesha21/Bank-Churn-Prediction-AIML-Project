@@ -10,7 +10,7 @@ Given a Bank customer, build a neural network-based classifier that can determin
 
 ## Data Description
 
-The case study is from an open-source dataset from Kaggle. The dataset contains 10,000 sample points with 14 distinct features such as CustomerId, CreditScore, Geography, Gender, Age, Tenure, Balance, etc.
+The case study is from an open-source dataset from Kaggle. The dataset contains 10,000 sample points with 12 distinct input features such as CreditScore, Geography, Gender, Age, Tenure, Balance, etc., plus a target variable (Exited).
 
 ## Data Dictionary
 
