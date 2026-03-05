@@ -38,7 +38,7 @@ Build a neural network-based classifier that can determine whether a bank custom
 ## 📊 Dataset  
 - **Source:** Open-source dataset from Kaggle  
 - **Size:** 10,000 customer records  
-- **Features:** 14 distinct features including demographics, account details, and engagement metrics
+- **Features:** 12 input features including demographics, account details, and engagement metrics
 - **Target:** Churn Status (`1` = Churned, `0` = Retained)
 
 *Complete data dictionary available in [PROJECT_REQUIREMENTS.md](PROJECT_REQUIREMENTS.md)*
@@ -54,7 +54,7 @@ Build a neural network-based classifier that can determine whether a bank custom
 ---
 
 ## 📈 Model Performance & Results  
-**Best Performing Model:** Neural Network with SMOTE & SGD  
+**Best Performing Model:** Neural Network with SMOTE & Adam  
 - **Training Accuracy:** 85%  
 - **Validation Accuracy:** 79%  
 - **Precision:** 0.49 (Class 1 - Churned)  
@@ -62,12 +62,12 @@ Build a neural network-based classifier that can determine whether a bank custom
 - **F1-Score:** 0.57 (Class 1 - Churned)  
 
 **Model Comparison (Recall Scores):**
-- NN with SMOTE & Adam: 0.259
+- **NN with SMOTE & Adam: 0.259** (Best Performance)
 - NN with SMOTE & Adam & Dropout: 0.179  
 - NN with Adam: 0.140
 - NN with SGD: 0.037
 - NN with Adam & Dropout: 0.034
-- **NN with SMOTE & SGD: 0.026** (Best Generalizer - Lowest Overfitting)
+- NN with SMOTE & SGD: 0.026 (Best Generalizer - Lowest Overfitting)
 
 ---
 
@@ -112,7 +112,7 @@ jupyter notebook Bank_Churn_Prediction_Neural_Network_v2.ipynb
 ```
 ├── Bank_Churn_Prediction_Neural_Network_v1.ipynb       # Complete analysis and model implementation notebook
 ├── Bank_Churn_Prediction_Neural_Network_v2.ipynb       # Enhanced version with improved formatting & business impact analysis
-├── Churn.csv                                           # Customer dataset (10k records, 14 features)
+├── Churn.csv                                           # Customer dataset (10k records, 12 features + target)
 ├── PROJECT_REQUIREMENTS.md                             # Detailed project documentation, business context & data dictionary
 ├── README.md                                           # Project overview and setup guide
 ├── .gitignore                                          # Git ignore file for excluding backup files and cache
